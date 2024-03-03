@@ -1,4 +1,4 @@
-# Cardano_Enterprise
+# Cardano Enterprise Db-sync
 Cardano Db-Sync as a Service
 
 ## Goals
@@ -8,6 +8,8 @@ Cardano Db-Sync as a Service
 - Offer blockchain analytics consulting to the Cardano community
 
 ## Milestones
+
+![planned milestones](doc/img/BCA_CE_Milestones.png)
 
 ### M1 Infrastructure
 > [M1](https://github.com/Blockchain-Data-Analytics/Cardano_Enterprise/milestone/1)
