@@ -31,5 +31,7 @@ Cardano Db-Sync as a Service
 
 Visit our [Kanban board](https://github.com/orgs/Blockchain-Data-Analytics/projects/1) to follow this project's progress.
 
-![Workload](https://github.com/orgs/Blockchain-Data-Analytics/projects/1/insights/2)
+###### Workload by milestones
+[![Workload](doc/img/milestones.png)](https://github.com/orgs/Blockchain-Data-Analytics/projects/1/insights/2)
 
+###### [Project Info](./doc/README.md)
