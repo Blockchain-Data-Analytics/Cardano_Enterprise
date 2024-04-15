@@ -1,37 +1,49 @@
 # Cardano Enterprise Db-sync
-Cardano Db-Sync as a Service
 
-## Goals
+read this on our [website](https://blockchain-data-analytics.github.io/Cardano_Enterprise/)
+
+> **Cardano Db-Sync as a Service**
+
+* we maintain independent pipelines of [Cardano Db-sync](https://github.com/IntersectMBO/cardano-db-sync) which maps on-chain data to a relational database
+* we provide access to Db-sync databases on high-availability [PostgreSQL](https://www.postgresql.org/)
+  - for a modest monthly fee
+  - in your closest region: currently, EU and Americas
+  - high-availability: at least one pipeline is up and running
+
+## [Documentation](./doc/README.md)
+
+### [01 Infrastructure](./doc/01_Infrastructure.md)
+
+## Project management
+
+### Goals
 - Provide convenient access to Cardano blockchain data
 - Secure access to a high-availability database system
 - Pay-as-you-go: sign-up for a time period, extend, or cancel
 - Offer blockchain analytics consulting to the Cardano community
 
-## Milestones
+### Milestones
 
 ![planned milestones](doc/img/BCA_CE_Milestones.png)
 
-### M1 Infrastructure
+#### M1 Infrastructure
 > [M1](https://github.com/Blockchain-Data-Analytics/Cardano_Enterprise/milestone/1)
 * pipelines
 * high-availability database system
 
-### M2 Monitoring & Alerts
+#### M2 Monitoring & Alerts
 > [M2](https://github.com/Blockchain-Data-Analytics/Cardano_Enterprise/milestone/2)
 * monitoring & alerts
 * dashboards
 
-### M3 User sign-up
+#### M3 User sign-up
 > [M3](https://github.com/Blockchain-Data-Analytics/Cardano_Enterprise/milestone/3)
 * web app
 * backend processes
 
-
-## Progress
+### Progress
 
 Visit our [Kanban board](https://github.com/orgs/Blockchain-Data-Analytics/projects/1) to follow this project's progress.
 
-###### Workload by milestones
+#### Workload by milestones
 [![Workload](doc/img/milestones.png)](https://github.com/orgs/Blockchain-Data-Analytics/projects/1/insights/2)
-
-###### [Project Info](./doc/README.md)
