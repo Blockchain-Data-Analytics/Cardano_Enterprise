@@ -80,7 +80,7 @@ We usually set higher values than the defaults for the following settings:
 * max_parallel_workers_per_gather = 4
 * effective_cache_size = 12GB
 
-And, if one wants to use dynamic replication, then also add this:
+And, if one wants to use [logical replication](#postgresql-replication), then also add this:
 
 * wal_level = 'logical'
 
@@ -95,3 +95,40 @@ We are investigating the following products:
 * [pgCat](https://github.com/postgresml/pgcat)
 * [pgBouncer](https://github.com/pgbouncer/pgbouncer)
 * [odyssey](https://github.com/yandex/odyssey)
+
+### PostgreSQL replication
+
+Apart from the well-known binary replication between PostgreSQL instances, newer version also support [logical replication](https://www.postgresql.org/docs/current/logical-replication.html). This is based on a publish-subscribe mechanism and allows for finegrained definition of replication and the associated permissions.
+
+#### Replication publisher
+Defining a replication publication on the server:
+
+```sql
+CREATE PUBLICATION publication1 FOR TABLE public.tx, public.tx_in, public.tx_out, public.block;
+```
+or for all tables:
+```sql
+CREATE PUBLICATION publication_all FOR ALL TABLES;
+```
+
+#### Replication subscriber
+
+The client needs to have the database schema installed either from restoring a checkpoint (see [here](https://update-cardano-mainnet.iohk.io/cardano-db-sync/index.html)) or from an export from the original database (maybe using "pgAdmin").
+
+The corresponding subscription on a client:
+
+```sql
+CREATE SUBSCRIPTION replication1
+CONNECTION 'postgresql://<user>:<pwd>@<host>:5432/mainnet'
+PUBLICATION publication1
+WITH (enabled = false);
+```
+(the "PUBLICATION" should match a defined publication on the server)
+
+Starting or stopping the replication:
+```sql
+ALTER SUBSCRIPTION replication1 ENABLE;
+ALTER SUBSCRIPTION replication1 DISABLE;
+```
+
+It might be faster to temporarily remove the indezes from the replicated tables on the client, and then add them back to the schema after replication finished.
