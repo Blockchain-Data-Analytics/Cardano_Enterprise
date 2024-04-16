@@ -84,7 +84,7 @@ And, if one wants to use [logical replication](#postgresql-replication), then al
 
 * wal_level = 'logical'
 
-The database performance is directly dependent on the availability of enough RAM and the throughput of the disks. It is advisable to run PostgreSQL on a machine with enough disk space on SSD. Although, one could achive reasonable results with a hybrid approach using spinning disks for tables and placing the indezes on an SSD (tablesapce).
+The database performance is directly dependent on the availability of enough RAM and the throughput of the disks. It is advisable to run PostgreSQL on a machine with enough disk space on SSD. Although, one could achive reasonable results with a hybrid approach using spinning disks for tables and placing the indexes on an SSD (tablespace).
 
 ### PostgreSQL proxies
 
@@ -131,4 +131,4 @@ ALTER SUBSCRIPTION replication1 ENABLE;
 ALTER SUBSCRIPTION replication1 DISABLE;
 ```
 
-It might be faster to temporarily remove the indezes from the replicated tables on the client, and then add them back to the schema after replication finished.
+It might be faster to temporarily remove the indexes from the replicated tables on the client, and then add them back to the schema after replication finished.

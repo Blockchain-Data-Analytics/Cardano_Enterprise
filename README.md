@@ -6,20 +6,26 @@ read this on our [website](https://blockchain-data-analytics.github.io/Cardano_E
 
 * we maintain independent pipelines of [Cardano Db-sync](https://github.com/IntersectMBO/cardano-db-sync) which maps on-chain data to a relational database
 * we provide access to Db-sync databases on high-availability [PostgreSQL](https://www.postgresql.org/)
-  - for a modest monthly fee
   - in your closest region: currently, EU and Americas
   - high-availability: at least one pipeline is up and running
+* secure access through VPN
+* Pay-as-you-go: sign-up for a time period, extend, or cancel
+
 
 ## [Documentation](./doc/README.md)
 
 ### [01 Infrastructure](./doc/01_Infrastructure.md)
+
+### [02 Networking & VPN](./doc/02_VPN.md)
+
+### [03 Software setup](./doc/03_Software.md)
+
 
 ## Project management
 
 ### Goals
 - Provide convenient access to Cardano blockchain data
 - Secure access to a high-availability database system
-- Pay-as-you-go: sign-up for a time period, extend, or cancel
 - Offer blockchain analytics consulting to the Cardano community
 
 ### Milestones
