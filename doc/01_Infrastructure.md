@@ -20,7 +20,7 @@ In Milestone 1 we demonstrate the business continuity feature of redundant datab
 ## Instances
 
 For this purpose, we have setup:
-* two independent Cardano node & Cardano Db-sync pipelines: _bca2_, _bca3_
+* two independent Cardano node & Cardano Db-sync pipelines: _bca1_, _bca3_
 * a PostgreSQL replica in North America: _bca4b_
 * a client accessible PostgreSQL proxy in North America: _bca7_
 * a server for the web app which also serves as a PostgreSQL proxy in Europe: _bca11_
