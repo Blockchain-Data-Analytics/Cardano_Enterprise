@@ -14,7 +14,11 @@ read this on our [website](https://blockchain-data-analytics.github.io/Cardano_E
 
 ## [Documentation](./doc/README.md)
 
-### [01 Infrastructure](./doc/01_Infrastructure.md)
+- #### [01 Infrastructure](./doc/01_Infrastructure.md)
+- #### [02 VPN](./doc/02_VPN.md)
+- #### [03 Software](./doc/03_Software.md)
+- #### [04 High availability](./doc/04_High_availability.md)
+
 
 ### [02 Networking & VPN](./doc/02_VPN.md)
 
