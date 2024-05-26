@@ -1,8 +1,8 @@
 [back to index](README.md)
 
 ## Setup
-In order to monitor the system's various parts, we use Prometheus and Grafana.
-Prometheus has two parts: exporters and scrapers
+In order to monitor the system's various parts, we use [Prometheus](https://prometheus.io/) and [Grafana](https://grafana.com/).<br>
+Prometheus has two parts: exporters and scrapers.<br>
 Using various Prometheus exporters (see below), we export various metrics as a local web service. Each job is running on different port (eg. 9100).
 Then the Prometheus scrapers, visit the aforementioned web services, extract all the metrics and ingest them in the Prometheus Database.
 Using the Prometheus data (that has been ingested in the database), there are various dashboards created using Grafana.
@@ -35,5 +35,5 @@ These metrics are shown across all our databases.
 Here you can view all metrics around all our database instances.
 - A [Node exporter dashboard](https://monitoring.bca.sbclab.net/d/rYdddlPWk/node-exporter-full?orgId=1&refresh=1m) (requires auth)
 Depicting various metrics around the resources used by our nodes.
-- A [Named processes dashboard](https://monitoring.bca.sbclab.net/d/aa0cdc9f-a76f-4c52-ae61-80f1fa52c671/named-processes?orgId=1&refresh=10s)
+- A [Named processes dashboard](https://monitoring.bca.sbclab.net/d/aa0cdc9f-a76f-4c52-ae61-80f1fa52c671/named-processes?orgId=1&refresh=10s) (requires auth)
 Showing the uptime of db-sync and node processes.
