@@ -48,3 +48,7 @@ Videos of capturing output in a terminal that demonstrates the update from the b
 Also shown is the behaviour in case of one database getting inaccessible and how the proxy automatically switches to using the other one.
 
 see [05 Demonstration](05_Demonstration_M1.md)
+
+## 06 Monitoring
+
+Description of our monitoring stack: [06 Monitoring](06_Monitoring.md)

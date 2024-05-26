@@ -19,15 +19,7 @@ read this on our [website](https://blockchain-data-analytics.github.io/Cardano_E
 - #### [03 Software](./doc/03_Software.md)
 - #### [04 High availability](./doc/04_High_availability.md)
 - #### [05 Demonstrations](./doc/05_Demonstration_M1.md)
-
-
-### [02 Networking & VPN](./doc/02_VPN.md)
-
-### [03 Software setup](./doc/03_Software.md)
-
-### [04 High availability](./doc/04_High_availability.md)
-
-### [05 Demonstrations](./doc/05_Demonstration_M1.md)
+- #### [06 Monitoring](./doc/06_Monitoring.md)
 
 ## Project management
 
