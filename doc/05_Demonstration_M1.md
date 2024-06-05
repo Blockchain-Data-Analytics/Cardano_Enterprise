@@ -12,7 +12,7 @@ All these databases get updated by Db-sync whenever there is a new block availab
 
 Using some queries on the block height, i.e. _slot\_no_, we can demonstrate that the pipelines update their databases and the replica follow with short delay.
 
-![Terminal captured showing update of block height in two independent pipelines and two replica](img/Recording_Database_Updating_Blockheights.mp4)
+![Terminal captured showing update of block height in two independent pipelines and two replica](https://github.com/Blockchain-Data-Analytics/Cardano_Enterprise/raw/main/doc/img/Recording_Database_Updating_Blockheights.mp4)
 
 
 ## Live recording of failover behaviour
@@ -21,4 +21,4 @@ Additionally to the above setup, we have setup a PostgreSQL proxy, e.g. _pgcat_,
 
 The demonstration shows that when pipeline _bca1_ stops updating its database, thus the block height for _bca1_ does not increase anymore, then the querying through the proxy still returns the latest block height as it now redirects the query to the other pipeline _bca3_.
 
-![In case of failover the proxy redirects to the other pipeline and still returns the latest block height](img/Recording_Database_Updating_Failover.mp4)
+![In case of failover the proxy redirects to the other pipeline and still returns the latest block height](https://github.com/Blockchain-Data-Analytics/Cardano_Enterprise/raw/main/doc/img/Recording_Database_Updating_Failover.mp4)
