@@ -20,6 +20,7 @@ read this on our [website](https://blockchain-data-analytics.github.io/Cardano_E
 - #### [04 High availability](./doc/04_High_availability.md)
 - #### [05 Demonstrations](./doc/05_Demonstration_M1.md)
 - #### [06 Monitoring](./doc/06_Monitoring.md)
+- #### [07 Hard forks](./doc/07_Hard_forks.md)
 
 ## Project management
 
