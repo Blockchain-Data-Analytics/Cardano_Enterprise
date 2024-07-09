@@ -53,6 +53,6 @@ see [05 Demonstration](05_Demonstration_M1.md)
 
 Description of our monitoring stack: [06 Monitoring](06_Monitoring.md)
 
-## 06 Hard forks
+## 07 Hard forks
 
 Description of our process during hard forks: [07 Hard forks](07_Hard_forks.md)

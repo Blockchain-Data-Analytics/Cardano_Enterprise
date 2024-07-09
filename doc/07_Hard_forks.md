@@ -23,9 +23,3 @@ When a new version of db-sync with breaking changes is released, we will impleme
    - The new version will gain redundancy after the transition phase ends, ensuring high availability and reliability.
 
 Please be mindful of the transition period and plan your migration accordingly to avoid any disruptions.
-
-
-
-
-
-
