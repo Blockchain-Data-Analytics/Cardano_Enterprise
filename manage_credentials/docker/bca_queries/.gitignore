@@ -1,0 +1,4 @@
+*.zip
+package/README.md
+package/docker-compose.yml
+package/wg-config/wg_confs
