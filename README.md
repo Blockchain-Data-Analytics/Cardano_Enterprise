@@ -21,6 +21,7 @@ read this on our [website](https://blockchain-data-analytics.github.io/Cardano_E
 - #### [05 Demonstrations](./doc/05_Demonstration_M1.md)
 - #### [06 Monitoring](./doc/06_Monitoring.md)
 - #### [07 Hard forks](./doc/07_Hard_forks.md)
+- #### [08 Credential management](./doc/08_Credentials.md)
 
 ## Project management
 
@@ -45,8 +46,8 @@ read this on our [website](https://blockchain-data-analytics.github.io/Cardano_E
 
 #### M3 User sign-up
 > [M3](https://github.com/Blockchain-Data-Analytics/Cardano_Enterprise/milestone/3)
-* web app
-* backend processes
+* web store
+* backend processes - user credential management
 
 ### Progress
 

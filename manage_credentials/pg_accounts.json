@@ -1,0 +1,14 @@
+{
+  "pgaccounts": [
+    {
+      "status": "inuse",
+      "username": "usr123",
+      "password": "<create anew>"
+    },
+    {
+      "status": "free",
+      "username": "usr234",
+      "password": "<create anew>"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "networks": [
+    {
+      "name": "netA",
+      "hostname": "bca1",
+      "subnet": "10.101.",
+      "endaddr": "<server IP address>",
+      "pgport": "5432",
+      "interfaces": [
+        {
+          "name": "wg41",
+          "status": "free",
+          "subsubnet": "117.",
+          "allowip": "0/24",
+          "endport": "53628",
+          "peerpubkey": "wg's iface public key",
+          "locaddr": "141",
+          "srvaddr": "28"
+        },
+        {
+          "name": "wg42",
+          "status": "free",
+          "subsubnet": "123.",
+          "allowip": "0/24",
+          "endport": "54439",
+          "peerpubkey": "wg's iface public key",
+          "locaddr": "161",
+          "srvaddr": "39"
+        }
+      ]
+    },
+    {
+      "name": "netBeu",
+      "hostname": "bca3",
+      "subnet": "10.202.",
+      "endaddr": "<server IP address>",
+      "pgport": "5432",
+      "interfaces": [
+        {
+          "name": "wg41",
+          "status": "free",
+          "expiry": "0",
+          "subsubnet": "127.",
+          "allowip": "0/24",
+          "endport": "53726",
+          "peerpubkey": "wg's iface public key",
+          "locaddr": "142",
+          "srvaddr": "26"
+        },
+        {
+          "name": "wg22",
+          "status": "free",
+          "expiry": "0",
+          "subsubnet": "133.",
+          "allowip": "0/24",
+          "endport": "54337",
+          "peerpubkey": "wg's iface public key",
+          "locaddr": "162",
+          "srvaddr": "37"
+        }
+      ]
+    },
+    {
+      "name": "netBus",
+      "hostname": "bca4b",
+      "subnet": "10.202.",
+      "endaddr": "<server IP address>",
+      "pgport": "5432",
+      "interfaces": [
+        {
+          "name": "wg41",
+          "status": "free",
+          "subsubnet": "164.",
+          "allowip": "0/24",
+          "endport": "53416",
+          "peerpubkey": "wg's iface public key",
+          "locaddr": "124",
+          "srvaddr": "16"
+        },
+        {
+          "name": "wg22",
+          "status": "free",
+          "subsubnet": "157.",
+          "allowip": "0/24",
+          "endport": "54726",
+          "peerpubkey": "wg's iface public key",
+          "locaddr": "167",
+          "srvaddr": "26"
+        }
+      ]
+    },
+    {
+      "name": "proxyEU",
+      "hostname": "bca10",
+      "subnet": "10.101.",
+      "endaddr": "<server IP address>",
+      "pgport": "25432",
+      "interfaces": [
+        {
+          "name": "wg41",
+          "status": "inuse",
+          "expiry": "1720097073",
+          "subsubnet": "138.",
+          "allowip": "0/24",
+          "endport": "53813",
+          "peerpubkey": "wg's iface public key",
+          "locaddr": "147",
+          "srvaddr": "41",
+          "launched": "1717505073",
+          "launched_readable": "2024-06-04T12:44:33+00:00",
+          "expiry_readable": "2024-07-04T12:44:33+00:00"
+        },
+        {
+          "name": "wg42",
+          "status": "free",
+          "subsubnet": "143.",
+          "allowip": "0/24",
+          "endport": "54139",
+          "peerpubkey": "wg's iface public key",
+          "locaddr": "138",
+          "srvaddr": "39"
+        }
+      ]
+    },
+    {
+      "name": "proxyUS",
+      "hostname": "bca7",
+      "subnet": "10.202.",
+      "endaddr": "<server IP address>",
+      "pgport": "25432",
+      "interfaces": [
+        {
+          "name": "wg41",
+          "status": "free",
+          "subsubnet": "123.",
+          "allowip": "0/24",
+          "endport": "54256",
+          "peerpubkey": "wg's iface public key",
+          "locaddr": "173",
+          "srvaddr": "35"
+        },
+        {
+          "name": "wg42",
+          "status": "free",
+          "expiry": "0",
+          "subsubnet": "125.",
+          "allowip": "0/24",
+          "endport": "54672",
+          "peerpubkey": "wg's iface public key",
+          "locaddr": "162",
+          "srvaddr": "34"
+        }
+      ]
+    }
+  ]
+}
